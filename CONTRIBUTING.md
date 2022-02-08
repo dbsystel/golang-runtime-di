@@ -13,7 +13,7 @@ We would kindly ask you to not decrease the code coverage, so please write/adapt
 ## Communication
 
 We do not tolerate violent/racist/sexist or any other behavior aiming to harm anyone, 
-so please respect each other as human beings (see [code of conduct](./CODE_OF_CONDUCT.MD)). Thank you.
+so please respect each other as human beings (see [code of conduct](./CODE_OF_CONDUCT.md)). Thank you.
 
 ## Linting
 
