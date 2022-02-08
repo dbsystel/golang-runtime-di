@@ -1,4 +1,4 @@
-![Go](https://github.com/dbsystel/golang-runtime-di/workflows/Go/badge.svg) [![codecov](https://codecov.io/gh/dbsystel/golang-runtime-di/branch/main/graph/badge.svg?token=E123SJUGFD)](https://codecov.io/gh/dbsystel/golang-runtime-di) [![Go Reference](https://pkg.go.dev/badge/github.com/dbsystel/golang-runtime-di/.svg)](https://pkg.go.dev/github.com/dbsystel/golang-runtime-di/)
+[![Go (lint + test)](https://github.com/dbsystel/golang-runtime-di/actions/workflows/build.yml/badge.svg)](https://github.com/dbsystel/golang-runtime-di/actions/workflows/build.yml) [![codecov](https://codecov.io/gh/dbsystel/golang-runtime-di/branch/main/graph/badge.svg?token=E123SJUGFD)](https://codecov.io/gh/dbsystel/golang-runtime-di) [![Go Reference](https://pkg.go.dev/badge/github.com/dbsystel/golang-runtime-di/.svg)](https://pkg.go.dev/github.com/dbsystel/golang-runtime-di/)
 # golang-runtime-di
 
 ## description
