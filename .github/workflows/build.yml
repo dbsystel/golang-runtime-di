@@ -32,9 +32,9 @@ jobs:
           key: ${{ runner.os }}-go-mod-${{ hashFiles('**/go.sum') }}
       - name: lint
         uses: golangci/golangci-lint-action@v3
-	with: 
-	  version: v1.46
-	  only-new-issues: true	
+        with:
+          version: v1.46
+          only-new-issues: true
       - name: test
         run: make test
       - name: Codecov
