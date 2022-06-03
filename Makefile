@@ -1,5 +1,6 @@
 lint: ## Lint the source files
-	go run github.com/golangci/golangci-lint/cmd/golangci-lint run ./...
+	go install github.com/golangci/golangci-lint/cmd/golangci-lint@v1.46.2
+	golangci-lint run ./...
 
 OUTPUT_DIR=build/test-results
 COVERAGE_FILE=cover.out

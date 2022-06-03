@@ -31,7 +31,10 @@ jobs:
           path: ${{ steps.go-cache-paths.outputs.go-mod }}
           key: ${{ runner.os }}-go-mod-${{ hashFiles('**/go.sum') }}
       - name: lint
-        run: make lint
+        uses: golangci/golangci-lint-action@v3
+	with: 
+	  version: v1.46
+	  only-new-issues: true	
       - name: test
         run: make test
       - name: Codecov
